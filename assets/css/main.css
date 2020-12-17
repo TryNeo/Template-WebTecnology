@@ -1,7 +1,63 @@
-*{
-    margin:0;
-    paddin:0;
+/*
+        <main class="main-wrapper">
+            <!--inicio de la primera seccion-->
+            <section class="main-wrapper__container">
+                <!--inicio de imagen principal-->
+                <div class="main-wrapper__first">
+                    <a href="#" target="_blank"  class="main-wrapper__link" rel="noopener noreferrer">
+                        <img src="/assets/image/banner-tecnology.png" alt="" class="main-wrapper__image">
+                    </a>
+                </div>
+                <!--Fin de imagen principal-->
+                <!--Inicio de contenido principal-->
+                <div class="main-wrapper__first">
+                    <!--Inicio de titulo principal-->
+                    <div class="main-wrapper__">
+                        <h3 class="main-wrapper__title">Software de Gestion Para cualquier tipo de empresas.</h3>
+                        <p class="main-wrapper__paragraph">La herramienta que necesitas para administrar su empresa, 
+                            esté donde esté y cuando lo necesite.</p>
+                    </div>
+                    <!--Fin de titulo principal-->
 
+                    <!--Inicio de botones principales-->
+                    <div class="main-wrapper__">
+                        <div class="main-wrapper__btn__group">
+                            <button type="submit" class="main-wrapper__btn">Me interesa</button>
+                        </div>
+                        <div class="main-wrapper__btn__group">
+                            <button type="submit" class="main-wrapper__btn">Mas informacion</button>
+                        </div>
+                    </div>
+                    <!--Fin de botones principales-->
+                </div>
+                <!--Fin de contenido principal-->
+            </section>
+            <!--Fin de la primera seccion-->
+            
+            <!--Inicio de la segunda seccion-->
+            <section class="main-wrapper__container">
+                <!--Inicio de contenido secundario-->
+                <div class="main-wrapper__second">
+                    <h3 class="main-wrapper__title">Quienes Somos</h3>
+                    <hr class="main-wrapper__line">
+                    <p class="main-wrapper__paragraph">Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Sed congue ante et lacus rutrum, 
+                    luctus placerat nibh eleifend. Donec scelerisque 
+                    tincidunt turpis nec tristique. Fusce mattis, risus et
+                    volutpat accumsan, justo est semper tortor, iaculis congue 
+                    nisl metus nec turpis. Integer eu felis a nunc laoreet euismod vitae vitae lectus. Vivamus feugiat, mi sed bibendum eleifend, est ante luctus felis, vitae semper arcu tellus a mi. 
+                    </p>
+                </div>
+            </section>
+            <!--Fin  de seccion secundaria-->
+        </main>
+*/
+
+
+*{
+    margin:0px;
+    paddin:0px;
+    outline:0px;    
     box-sizing: border-box;
 }
 
@@ -10,50 +66,20 @@ a{
 }
 
 
-.header{
-    border:1px solid black;
-    display: flex;
-    display: -o-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -webkit-flex;
-}
-
-
-
-.header__content{
-    width: 1115px;
-    margin:5px auto;
-    display: inline-flex;
-    display: -moz-inline-flex;
-    display: -o-inline-flex;
-    display: -ms-inline-flex;
-    display: -webkit-inline-flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-
-.header__nav__list{
+ul{
     list-style: none;
 }
 
+.header__content{
+    border:1px solid black;
+    max-width:1000px;
+    margin: 0px auto;
 
-.header__nav__item{
-    display:inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 0 8px;
 }
 
-.main-wrapper{
+
+.header__nav{
     display:flex;
-    width:1000px;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
