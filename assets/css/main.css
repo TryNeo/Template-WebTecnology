@@ -56,7 +56,7 @@
 
 *{
     margin:0px;
-    paddin:0px;
+    padding:0px;
     outline:0px;    
     box-sizing: border-box;
 }
@@ -71,15 +71,23 @@ ul{
 }
 
 .header__content{
-    border:1px solid black;
-    max-width:1000px;
-    margin: 0px auto;
-
-}
-
-
-.header__nav{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5px;
+
 }
+
+.header__logo__link{
+    color:none;
+}
+
+.header__logo__image{
+    width:100%;
+}
+
+.header__nav__list{
+    border: 1px solid black;
+}
+
+
