@@ -53,10 +53,7 @@ a{
 }
 
 .main-wrapper{
-    border: 1px solid black;
-    width: 1115px;
+    display:flex;
+    width:1000px;
+    flex-direction: column;
 }
-
-
-
-
