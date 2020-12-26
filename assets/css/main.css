@@ -14,24 +14,4 @@ ul{
     list-style: none;
 }
 
-.header__content{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5px;
-
-}
-
-.header__logo__link{
-    color:none;
-}
-
-.header__logo__image{
-    width:100%;
-}
-
-.header__nav__list{
-    border: 1px solid black;
-}
-
 
