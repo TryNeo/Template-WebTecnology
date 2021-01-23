@@ -90,7 +90,7 @@ ul{
     flex-direction:column;
     justify-content: center;
     font-family: 'Roboto',sans-serif;
-    width: 50%;
+    padding: 10px;
 }
 
 .main-wrapper__image{
@@ -110,6 +110,7 @@ ul{
 }
 
 .main-wrapper__btns{
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -127,7 +128,7 @@ ul{
     color:white;
     font-weight: 700;
     text-align: center;
-    border:none;
+    border: none;
     background: linear-gradient(180deg, #DB22BD 0%, rgba(255, 255, 255, 0) 80%), #6C3CF6;
     border-radius: 15px;
     width: 180px;
@@ -199,16 +200,75 @@ ul{
 }
 
 
-@media only screen and (max-width:1000px ) and (min-width:900px){
+
+@media only screen and (max-width:1351px) and (min-width:1300px){
+    .main-wrapper__container{
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width:1300px) and (min-width:1200px){
+    .main-wrapper__container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1100px){
+    .main-wrapper__container{
+        width: 87%;
+    }
     .main-wrapper__image{
-        width: 420px;
+        width: 480px;
+    }
+    .main-wrapper__title{
+        font-size: 45px;
+    }
+    .main-wrapper__btn{
+        width: 145px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
+
+
+@media only screen and (max-width:1100px ) and (min-width:900px){
+    .main-wrapper__container{
+        width: 87%;
+    }
+
+    .main-wrapper__btns{
+        width: 330px;
+    }
+    .main-wrapper__btn{
+        width: 145px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .main-wrapper__image{
+        width: 450px;
     }
     .main-wrapper__title{
         font-size: 45px;
     }
 }
 
-@media only screen and (max-width:900px) and (min-width:760px){
+@media only screen and (max-width:980px) and (min-width:890px){
+    .main-wrapper__container{
+        width:87%;
+    }
+
+    .main-wrapper__btn{
+        width: 145px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .main-wrapper__btns{
+        width: 330px;
+    }
+
     .main-wrapper__image{
         width: 380px;
     }
