@@ -169,6 +169,7 @@ ul{
     text-align: center;
 }
 
+
 @media only screen and (max-width:900px){
     .header{
         display:block;
@@ -199,13 +200,12 @@ ul{
     }   
 }
 
-
-
 @media only screen and (max-width:1351px) and (min-width:1300px){
     .main-wrapper__container{
         width: 83%;
     }
 }
+
 
 @media only screen and (max-width:1300px) and (min-width:1200px){
     .main-wrapper__container{
@@ -231,8 +231,7 @@ ul{
 }
 
 
-
-@media only screen and (max-width:1100px ) and (min-width:900px){
+@media only screen and (max-width:1100px ) and (min-width:1038px){
     .main-wrapper__container{
         width: 87%;
     }
@@ -254,10 +253,10 @@ ul{
     }
 }
 
-@media only screen and (max-width:980px) and (min-width:890px){
+@media only screen and (max-width:1036px) and (min-width:907px){
     .main-wrapper__container{
-        width:87%;
-    }
+        width:83%;
+        }
 
     .main-wrapper__btn{
         width: 145px;
@@ -278,23 +277,79 @@ ul{
 }
 
 
-@media only screen and (max-width:760px) and (min-width:610px){
+@media only screen and (max-width:906px) and (min-width:805px){
+
+    .main-wrapper__container{
+        width:87%;
+        }
+
+    .main-wrapper__btn{
+        width: 145px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .main-wrapper__btns{
+        width: 330px;
+    }
+
     .main-wrapper__image{
-        width: 280px;
+        width: 370px;
 
     }
+
     .main-wrapper__title{
-        font-size:25px
+        font-size: 30px;
     }
 }
 
-
-@media only screen and (max-width:610px){
+@media only screen and (max-width:805px) and (min-width:704px){
+    .main-wrapper__container{
+        width:87%;
+    } 
+    
     .main-wrapper__image{
-        width:210px;
+        width: 300px;
+    }
+
+    .main-wrapper__title{
+        font-size: 18px;
+    }
+
+
+    .main-wrapper__btn{
+        width: 130px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .main-wrapper__btns{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:703px) and (min-width:720px){
+    .main-wrapper__container{
+        width: 87%;
+    }
+    
+    .main-wrapper__btn{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .main-wrapper__btns{
+        width: 200px;
+    }
+
+    .main-wrapper__image{
+        width: 300px;
 
     }
+
     .main-wrapper__title{
-        font-size:22px
+        font-size: 18px;
     }
+
 }
