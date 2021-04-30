@@ -1,6 +1,4 @@
-/*
-
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
     margin:0px;
@@ -14,6 +12,8 @@ body{
     margin: 0;
 }
 
+
+
 a{
     text-decoration: none;
 }
@@ -21,6 +21,16 @@ a{
 ul{
     list-style: none;
 }
+
+.backgroud_wrapper_section_one{
+    top: 0px;
+    right:0px;
+    position:absolute;
+    z-index:-1;
+}
+
+
+
 
 /*cabecera principal */
 .header{
@@ -51,13 +61,13 @@ ul{
     display:inline-block;
     text-transform: uppercase;
     font-family: 'Roboto',sans-serif;
-    font-size: 15px;
-    font-weight: bold;
     padding:0 5px;
 }
 
 .nav__link{
-    color:black;
+    font-size: 16px;
+    color:white;
+    font-weight: 600;
 }
 /*fin de lacabecera principal */
 
@@ -74,67 +84,55 @@ ul{
 
 .container{
     width: 100%;
-    border:1px solid green;
     margin-top:20px;
 }
 
-.container__flex{
+.container__first{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 
-.container__banner{
+.banner__picture{
     padding: 1rem;
     width: 100%;
 }
 
 
-/*
-.main-wrapper__first{
+.content__first{
     display: flex;
     flex-direction:column;
     justify-content: center;
     font-family: 'Roboto',sans-serif;
-    padding: 10px;
+    width: 50%;
+    color:white
 }
 
-
-.main-wrapper__image{
-    border:1px solid yellow;
-    width: 450px;
-}
-
-
-.main-wrapper__title{
+.content__title{
     font-size: 50px;
-    padding: 6px;
+    padding-bottom: 20px;
+    text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content__paragraph{
+    padding: 5px;
+    width: 355px;
     padding-bottom: 20px;
 }
 
-/*
-.main-wrapper__paragraph{
-    padding: 10px;
-    width: 355px;
-}
-
-.main-wrapper__btns{
-    position: relative;
+.content__btns{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    width: 500px;
-    height: 100px;
-    padding: 10px;
+    padding: 5px;
 }
 
-.main-wrapper__btn__group{
+.content__btn__group{
     margin-right: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.main-wrapper__btn{
+.content__btn{
     color:white;
     font-weight: 700;
     text-align: center;
@@ -145,7 +143,7 @@ ul{
     height: 42px;
     font-size: 14px;
 }
-*/
+
 
 @media only screen and (max-width:900px){
     .header{
